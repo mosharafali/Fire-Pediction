@@ -19,9 +19,9 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html=True)
 
-    oxygen = st.text_input("Oxygen","Type Here")
-    humidity = st.text_input("Humidity","Type Here")
-    temperature = st.text_input("Temperature","Type Here")
+    oxygen = st.text_input("Oxygen","")
+    humidity = st.text_input("Humidity","")
+    temperature = st.text_input("Temperature","")
     safe_html="""  
       <div style="background-color:#F4D03F;padding:10px >
        <h2 style="color:white;text-align:center;"> Your forest is safe</h2>
